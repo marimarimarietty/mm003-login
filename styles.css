@@ -1,0 +1,98 @@
+/* all */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #492140;
+  line-height: 1.5;
+  padding: 20px 0 21px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+#account_form {
+  padding: 0 24px;
+}
+
+.form-title {
+  margin-top: 22px;
+  color: #263238;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.125;
+}
+
+.form-title_required::after {
+  content: "*";
+  color: #FF0000;
+  font-size: 12px;
+  vertical-align: top;
+  margin-left: 2px;
+}
+
+.form-input {
+  border: 1px solid #263238;
+  margin-top: 11px;
+  border-radius: 8px;
+  opacity: 0.16;
+  height: 56px;
+  color: #171717;
+  width: 100%;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #263238;
+  opacity: 0.16;
+  color: #171717;
+  outline: 0;
+}
+
+.password_mention {
+  color: #FF0000;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+.account_submit {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 24px;
+  background-color: #DA1BB0;
+  width: 100%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.sign_in {
+  display: block;
+  margin: 21px 0 52px;
+  font-size: 12px;
+  line-height: 1.33;
+  text-decoration: underline;
+  text-align: center;
+  color: #000000;
+}
+
+/* tablet, sp */
+@media screen and (max-width: 767px) {
+
+
+  /* .form-input::placeholder {
+    color: #C4C4C4;
+  } */
+}
+
+/* pc */
+@media screen and (min-width: 768px) {
+
+}
